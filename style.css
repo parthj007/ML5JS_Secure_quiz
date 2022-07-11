@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.mainc{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+#Rules{
+    margin-top: 20%;
+    margin-left: 3%;
+}
+#Rules li{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+    height: 4%;
+}
+.header img{
+    width: 10%;
+    height: 10%;
+}
+#video{
+    height: 250px;
+    width: 248px;
+    
+}
+.quizc{
+    width: 75%;
+    height: 100%;
+    background-color: aliceblue;
+    float: right;
+    position: absolute;
+    margin-left: 25%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.quiz-header{
+margin: 10%;
+padding: 2%;
+background-color: beige;
+width: 70%;
+height: 50vh;
+}
+#ulli{
+    list-style: none;
+}
+#question-text{
+    margin-left: 2%;
+    cursor: pointer;
+}
+.answer{
+    margin: 2%;
+    cursor: pointer;
+}
+#submit{
+    width: 100%;
+    height: 7vh;
+    background-color: aliceblue;
+    cursor: pointer;
+   
+    font-size: 1.3rem; 
+    margin: 0;
+
+}
+#submit:hover{
+    background-color: greenyellow;
+    }
